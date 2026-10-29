@@ -1,0 +1,29 @@
+# Visual Studio, SSMS, and Azure Data Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sqlproj.user
+*.dbmdl
+*.jfm
+
+# SQL Server data and backup files (never commit a database)
+*.mdf
+*.ndf
+*.ldf
+*.bak
+*.trn
+*.dif
+*.log
+
+# Local benchmark notes captured on a workstation
+benchmarks/local-results/
+
+# OS and editor clutter
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
